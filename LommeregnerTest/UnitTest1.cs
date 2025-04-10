@@ -30,6 +30,18 @@ namespace LommeregnerTest
             Assert.Equal(4, Divide(8, 2));
             Assert.Equal(1, Divide(2, 2));
         }
+        [Fact]
+        public void TestPower()
+        {
+            Assert.Equal(4, Power(2, 2));
+            Assert.Equal(16, Power(2, 4));
+        }
+        [Fact]
+        public void TestSqrt()
+        {
+            Assert.Equal(2, SquareRoot(4));
+            Assert.Equal(4, SquareRoot(16));
+        }
 
         public int Add(int a, int b)
         {
@@ -49,6 +61,16 @@ namespace LommeregnerTest
         public double Divide(int a, int b)
         {
             return (a / b);
+        }
+
+        public double Power(double a, double b)
+        {
+            return Math.Pow(a, b);
+        }
+
+        public double SquareRoot(double a)
+        {
+            return Math.Sqrt(a);
         }
     }
 }
