@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lommeregner", "Lommeregner.csproj", "{0B780F63-71F6-4A47-85D6-DADDF94628C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LommeregnerTest", "..\LommeregnerTest\LommeregnerTest.csproj", "{EEE2AA18-06BF-48CF-80B1-03B1E4151FCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B780F63-71F6-4A47-85D6-DADDF94628C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B780F63-71F6-4A47-85D6-DADDF94628C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B780F63-71F6-4A47-85D6-DADDF94628C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B780F63-71F6-4A47-85D6-DADDF94628C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE2AA18-06BF-48CF-80B1-03B1E4151FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE2AA18-06BF-48CF-80B1-03B1E4151FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE2AA18-06BF-48CF-80B1-03B1E4151FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE2AA18-06BF-48CF-80B1-03B1E4151FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DAFEF63-1361-43FC-BFE2-785322824918}
+	EndGlobalSection
+EndGlobal
